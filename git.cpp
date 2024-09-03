@@ -11,7 +11,6 @@ int main(){
     cout << "Enter your name: " << name ;
     cin.ignore();
     getline(cin, name);
-    cout << "Nice to meet ya, " << name << "!" << endl;
 
     return 0;
 }
